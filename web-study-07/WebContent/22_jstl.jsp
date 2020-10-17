@@ -17,7 +17,8 @@
 <c:catch var="errmsg"> <%-- try는 없다 그리고 throw시키는 변수를 catch var=""로 정한다 --%>
   예외 발생 전<br>
  <%= 1/0 %>
- 예외 발생 후<br>
+ 예외 발생 후<br> 
+ 
  </c:catch>
  
  <c:out value="${errmsg}"> </c:out> <br>
