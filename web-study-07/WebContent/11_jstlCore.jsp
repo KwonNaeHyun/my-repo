@@ -16,7 +16,7 @@
 
 <%=new MemberBean() %> <hr>
 
-<c:set var="member" value="<%=new MemberBean() %>"> </c:set>
+<c:set var="member" value="<%=new MemberBean() %>"> </c:set> <!-- 1st -->
 <c:set target="${member}" property="name" value="권내현"> </c:set>
 <c:set target="${member}" property="userid">mrkwons</c:set>
 \${member} = ${member} <hr>
