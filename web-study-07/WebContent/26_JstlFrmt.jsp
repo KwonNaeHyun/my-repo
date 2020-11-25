@@ -11,7 +11,7 @@
 <body>
 <pre>
 <c:set var="now" value="<%=new java.util.Date() %>"> </c:set>
-\${now} : ${now}
+\${now} : ${now} 
 </pre>
 </body>
 </html>
