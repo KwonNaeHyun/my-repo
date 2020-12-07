@@ -9,6 +9,6 @@
 <title>EL과 JSTL</title>
 </head>
 <body>
-
+<jsp:useBean id="now" class="java.util.Data"></jsp:useBean>
 </body>
 </html>
