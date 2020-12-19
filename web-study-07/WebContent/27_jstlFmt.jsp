@@ -21,9 +21,6 @@ Swiss   GMT  : <fmt:formatDate value="${now }" type="both" dateStyle="full" time
 <fmt:timeZone value="GMT-8">
 NewYork GMT-8 : <fmt:formatDate value="${now }" type="both" dateStyle="full" timeStyle="full" />
 </fmt:timeZone>
-
-
-
 </pre>
 </body>
 </html>
